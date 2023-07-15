@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap");
+
+:root {
+  --background: green;
+  --black-1: #2f302c;
+  --black-3: #7e7f7c;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+  font-family: "Lato", sans-serif;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: var(#2f302c);
+}
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+nav {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+.logo_and_search {
+  grid-column: 1/6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  grid-column: 6/10;
+}
+.like_cart {
+  justify-content: end;
+  display: grid;
+  grid-column: 10/-1;
+  /* align-items: center; */
+}
+a img {
+  margin: 0px 5px -5px 0px;
+}
+input {
+  position: relative;
+  border: none;
+  left: 2rem;
+}
+.input-container {
+  padding: 5px 0;
+  position: relative;
+  border-bottom: 1px solid #d4d4d4;
+}
+.input-container img {
+  position: absolute;
+}
+
+/* nav area end  */
+.banner-area {
+    display: grid;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(Images/main-bg.png);
+    background-repeat: no-repeat;
+    justify-content: end;
+    align-items: center;
+}
+
+.banner-text-area h2 {
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 96px;
+  font-weight: 700;
+  color: #2f302c;
+  font-family: Montserrat;
+  margin: 0;
+}
+.banner-text-area{
+    display: grid;
+    justify-content: start;
+    padding: 2rem;
+}
+.banner-text-area p{
+    color: var(--black-3);
+}
