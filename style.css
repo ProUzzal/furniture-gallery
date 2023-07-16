@@ -34,7 +34,7 @@ ul li a {
   text-transform: uppercase;
 }
 .margin{
-    margin: 3rem 0;
+    margin: 9rem 0;
 }
 
 .container {
@@ -79,6 +79,9 @@ input {
 }
 .input-container img {
   position: absolute;
+}
+.nav-item a{
+    color: var(--black-1);
 }
 
 /* nav area end  */
@@ -155,9 +158,9 @@ span {
 .text-center {
   text-align: center;
 }
-/* .trusted-by{
-
-} */
+.trusted-by .text-center, .choose-section .text-center{
+margin-bottom: 72px;
+}
 
 /* feature part  */
 .feature-title {
