@@ -33,6 +33,9 @@ ul li a {
   text-decoration: none;
   text-transform: uppercase;
 }
+.margin{
+    margin: 3rem 0;
+}
 
 .container {
   max-width: 1392px;
@@ -356,4 +359,8 @@ p.big-border {
 .social-icon {
   display: grid;
   justify-content: end;
+}
+
+.social-icon div img{
+    margin: 0 16px;
 }
